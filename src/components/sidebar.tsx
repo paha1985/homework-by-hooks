@@ -19,6 +19,9 @@ function Sidebar() {
           <li>
             <Link to="/task-4">Задание 4</Link>
           </li>
+          <li>
+            <Link to="/task-5">Задание 5</Link>
+          </li>          
         </ul>
       </nav>
     </div>

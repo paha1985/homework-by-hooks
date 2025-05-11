@@ -16,7 +16,6 @@ type UseLocalStorage = (
 export const useLocalStorage: UseLocalStorage = (key) => {
   const [value, setValue] = useState<LocalStorageReturnValue>(null);
 
-  // Инициализация значения из localStorage при монтировании
   useEffect(() => {
     const storedValue = localStorage.getItem(key);
     setValue(storedValue);
